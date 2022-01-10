@@ -1,0 +1,32 @@
+[
+    {"id":"001",
+      "title":"Free",
+      "price":"0",
+      "popular": false,
+
+    "list":[
+      "You will have a great chat",
+      "Get to know me and my skills",
+      "Totally Free!"
+    ]},
+    
+    {"id":"002",
+      "title":"Monthly",
+      "price":"Negotiable",
+      "popular": true,
+        "list":[
+          "You will have a great chat",
+          "Get to know me and my skills",
+          "Totally Free!"
+        ]},
+    {"id":"003",
+      "title":"Yearly",
+      "price":"Priceless",
+      "popular": false,
+
+        "list":[
+          "You will have a great chat",
+          "Get to know me and my skills",
+          "Totally Free!"
+        ]}
+  ]
