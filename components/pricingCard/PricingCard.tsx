@@ -20,7 +20,9 @@ const PricingCard = ({ title, price, list, id, popular }: Card) => {
       <div className='px-10 py-4 flex flex-row items-center'>
         <div className='flex items-start '>
           <p className='font-medium text-4xl'>€</p>
-          <h4 className='text-7xl font-semibold whitespace-nowrap'>{price}</h4>
+          <h4 className='lg:text-5xl xl:text-7xl text-5xl font-semibold whitespace-nowrap'>
+            {price}
+          </h4>
         </div>
       </div>
       <div className='flex flex-col items-center'>

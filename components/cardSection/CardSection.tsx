@@ -4,7 +4,7 @@ import PricingCard from "../pricingCard/PricingCard";
 
 const CardSection = () => {
   return (
-    <div className='h-full px-6 py-12 lg:justify-center lg:items-center'>
+    <section className='h-full px-6 py-12 lg:justify-center lg:items-center'>
       <div className='grid lg:grid-cols-3 gap-10 '>
         {CardsData.map((card) => (
           <div
@@ -18,7 +18,7 @@ const CardSection = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
