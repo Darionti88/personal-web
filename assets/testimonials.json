@@ -1,0 +1,30 @@
+[
+    {"id":"004",
+      "name":"Diego Cerutti",
+      "job":"CEO REVAI",
+      "photo": "https://media-exp1.licdn.com/dms/image/C4D03AQF6AM1NpXkxXw/profile-displayphoto-shrink_800_800/0/1596639973133?e=1647475200&v=beta&t=vyQd0Dq3MupI_KhbVV38Ay28AeOZfklaJYKRhIVGxqg",
+"testimonial": "He is a great person. Woderful leading material. Really builds team spirit up with his great work ethic and improvements",
+"external_url":"https://www.revaicare.com/"
+   },
+    
+   {"id":"005",
+    "name":"Diego Cerutti",
+      "job":"CEO REVAI",
+      "photo": "https://media-exp1.licdn.com/dms/image/C4D03AQF6AM1NpXkxXw/profile-displayphoto-shrink_800_800/0/1596639973133?e=1647475200&v=beta&t=vyQd0Dq3MupI_KhbVV38Ay28AeOZfklaJYKRhIVGxqg",
+"testimonial": "He is a great person. Woderful leading material. Really builds team spirit up with his great work ethic and improvements",
+"external_url":"https://www.revaicare.com/"
+ },{"id":"006",
+    "name":"Diego Cerutti",
+      "job":"CEO REVAI",
+      "photo": "https://media-exp1.licdn.com/dms/image/C4D03AQF6AM1NpXkxXw/profile-displayphoto-shrink_800_800/0/1596639973133?e=1647475200&v=beta&t=vyQd0Dq3MupI_KhbVV38Ay28AeOZfklaJYKRhIVGxqg",
+"testimonial": "He is a great person. Woderful leading material. Really builds team spirit up with his great work ethic and improvements",
+"external_url":"https://www.revaicare.com/"
+ },
+ {"id":"007",
+    "name":"Diego Cerutti",
+    "job":"CEO REVAI",
+    "photo": "https://media-exp1.licdn.com/dms/image/C4D03AQF6AM1NpXkxXw/profile-displayphoto-shrink_800_800/0/1596639973133?e=1647475200&v=beta&t=vyQd0Dq3MupI_KhbVV38Ay28AeOZfklaJYKRhIVGxqg",
+"testimonial": "He is a great person. Woderful leading material. Really builds team spirit up with his great work ethic and improvements",
+"external_url":"https://www.revaicare.com/"
+ }
+  ]
