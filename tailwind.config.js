@@ -13,6 +13,10 @@ module.exports = {
         },
         text: "#F9FAFA",
       },
+      fontFamily: {
+        nunito: ["nunito", "sans-serif"],
+        roboto: ["roboto mono", "monospace"],
+      },
     },
   },
   plugins: [],
