@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <section className='h-full px-6 py-12 my-10 lg:justify-center lg:items-center container'>
+    <section className='h-full px-6 pb-10 mb-10 lg:justify-center lg:items-center container'>
       <p className='xl:text-2xl text-grey-400 font-roboto'>
         Hi! My name is Dario Ontiveros and I come from Buenos Aires, Argentina.
         👋 I am a FullStack Developer, mostly working in Mobile with React
