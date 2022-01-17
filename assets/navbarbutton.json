@@ -1,0 +1,32 @@
+[
+    {"id":"008",
+        "name":"Home",
+      "activeClass":"Home",
+      "to":"home"
+   },
+   {"id":"009",
+    "name":"About",
+    "activeClass":"about",
+    "to":"about"
+ },
+ {"id":"010",
+    "name":"Projects",
+    "activeClass":"projects",
+    "to":"projects"
+ },
+ {"id":"011",
+    "name":"Pricing",
+    "activeClass":"pricing",
+    "to":"pricing"
+ },
+ {"id":"012",
+    "name":"Testimonials",
+    "activeClass":"testimonials",
+    "to":"testimonials"
+ },
+ {"id":"013",
+    "name":"Contact",
+    "activeClass":"contact",
+    "to":"contact"
+ }
+]
