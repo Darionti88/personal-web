@@ -4,7 +4,9 @@ import PricingCard from "../pricingCard/PricingCard";
 
 const CardSection = () => {
   return (
-    <section className='h-full px-6 py-12 lg:justify-center lg:items-center container'>
+    <section
+      className='h-full px-6 py-12 lg:justify-center lg:items-center container'
+      id='pricing'>
       <div className='grid lg:grid-cols-3 gap-10 '>
         {CardsData.map((card) => (
           <div
