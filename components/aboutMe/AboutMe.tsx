@@ -3,7 +3,7 @@ const AboutMe = () => {
     <section
       id='about'
       className='h-full px-6 pb-10 mb-10 lg:justify-center lg:items-center container'>
-      <p className='xl:text-2xl text-grey-400 font-roboto'>
+      <p className='xl:text-2xl text-grey-400 mix-blend-difference font-roboto z-50'>
         Hi! My name is Dario Ontiveros and I come from Buenos Aires, Argentina.
         👋 I am a FullStack Developer, mostly working in Mobile with React
         Native, but I have worked with React.Js and Node.Js I have 7 years of

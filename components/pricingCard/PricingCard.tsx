@@ -5,7 +5,7 @@ import { Card } from "../../interface/CardInterface";
 const PricingCard = ({ title, price, list, id, popular }: Card) => {
   return (
     <div
-      className={`px-6 py-6 bg-gray-100 dark:bg-background400 border-indigo-600 
+      className={`px-6 py-6 z-50 bg-gray-100 dark:bg-background400 border-indigo-600 
       rounded-md shadow-xl cursor-pointer flex flex-col items-center relative ${
         popular ? "border-2" : "border border-opacity-10"
       }`}>
