@@ -22,3 +22,9 @@ export interface Project {
   url: string;
   github: string;
 }
+
+export interface Contact {
+  contact: string;
+  url: string;
+  content: string;
+}
