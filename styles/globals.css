@@ -65,3 +65,11 @@ body {
   background: rgba(6, 5, 6, 0.7);
   transition: all 400ms ease-out;
 }
+
+.text-shadow {
+  text-shadow: 2px 2px 2px #ff6584;
+}
+
+.text-shadow-sky {
+  text-shadow: 2px 2px 2px #0ea5e9;
+}

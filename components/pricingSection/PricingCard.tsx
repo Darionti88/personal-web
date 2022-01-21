@@ -5,12 +5,15 @@ import { Card } from "../../interface/CardInterface";
 const PricingCard = ({ title, price, list, id, popular }: Card) => {
   return (
     <div
-      className={`px-6 py-6 z-50 bg-gray-100 dark:bg-background400 border-indigo-600 
+      className={`px-6 py-6 z-20 bg-gray-100 dark:bg-background400 border-indigo-600 
       rounded-md shadow-xl cursor-pointer flex flex-col items-center relative ${
         popular ? "border-2" : "border border-opacity-10"
       }`}>
       {popular && (
-        <span className='bg-indigo-600 text-white px-6 py-1 rounded-full uppercase text-sm font-semibold whitespace-nowrap absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+        <span
+          className='bg-indigo-600 text-white px-6 py-1 rounded-full 
+        uppercase text-sm font-semibold whitespace-nowrap absolute top-0 left-1/2 
+        transform -translate-x-1/2 -translate-y-1/2'>
           Most Popular
         </span>
       )}
