@@ -19,8 +19,8 @@ export interface Project {
   image: string;
   name: string;
   description: string;
-  url: string;
-  github: string;
+  url: string | null;
+  github: string | null;
 }
 
 export interface Contact {

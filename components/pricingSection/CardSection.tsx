@@ -5,7 +5,7 @@ import PricingCard from "./PricingCard";
 const CardSection = () => {
   return (
     <section
-      className='h-full px-6 sm:px-20 py-12 flex flex-col w-screen space-y-24 lg:justify-center lg:items-center '
+      className='h-full px-6 sm:px-20 py-12 flex flex-col w-full space-y-24 lg:justify-center lg:items-center '
       id='pricing'>
       <h1 className='text-7xl self-start font-nunito underline decoration-8 decoration-sky-600'>
         Take a chance on me...
