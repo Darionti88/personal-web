@@ -8,7 +8,7 @@ const ProjectBox = ({ name, description, url, github, image }: Project) => {
   const [hover, setHover] = useState<boolean>(false);
 
   return (
-    <div className='relative w-2/3 h-96 z-10'>
+    <div className='relative w-full sm:w-5/6 h-96 z-10'>
       <div
         className='absolute inset-x-2 inset-y-3 transform bg-gradient-to-r from-primary-salmon100 to-primary-salmon -right-3 -bottom-4 rounded-3xl -z-10
         '></div>
