@@ -32,8 +32,8 @@ const PricingCard = ({ title, price, list, id, popular }: Card) => {
         <div className='py-4'>
           <ul className='space-y-3'>
             {list === list &&
-              list.map((feat) => (
-                <li key={id} className='flex items-center space-x-4'>
+              list.map((feat, index) => (
+                <li key={index} className='flex items-center space-x-4'>
                   <CheckIcon className='w-6 h-6 text-green-500 flex-shrink-0' />
                   <p className='text-xl'>{feat}</p>
                 </li>

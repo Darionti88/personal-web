@@ -6,11 +6,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "#082032",
-        background400: "#2F3B56",
+        background: "#030d13",
+        background400: "#1f263a",
         primary: {
           orange: "#F0A500",
           salmon: "#FF6584",
+          salmon100: "#e5a4bf",
         },
         text: "#F9FAFA",
         secondText: "#cabea3",

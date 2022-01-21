@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Testimonial } from "../../interface/CardInterface";
-import Stars from "../Stars/Stars";
+import Stars from "./Stars";
 
 const TestimonialCard = ({
   external_url,

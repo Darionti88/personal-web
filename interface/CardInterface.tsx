@@ -14,3 +14,11 @@ export interface Testimonial {
   testimonial: string;
   external_url: string;
 }
+
+export interface Project {
+  image: string;
+  name: string;
+  description: string;
+  url: string;
+  github: string;
+}

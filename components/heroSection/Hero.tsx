@@ -1,6 +1,3 @@
-import { useEffect, useState } from "react";
-import HeroBackground from "./HeroBackground";
-import HeroBackground2 from "./HeroBackground2";
 import useTyped from "../../hooks/useTyped";
 
 const job = "React & React Native Developer";
@@ -9,8 +6,13 @@ const Hero = () => {
   const typed = useTyped(job);
   return (
     <main className='relative h-screen w-screen'>
-      <div className=' w-screen h-screen flex flex-col items-center justify-center align-center'>
-        <h1 className=' mix-blend-difference text-5xl lg:text-8xl text-text font-roboto z-50 mb-7'>{`I'm Dario Ontiveros`}</h1>
+      <div className=' w-full h-full flex flex-col items-center justify-center align-center'>
+        <h1 className=' mix-blend-difference text-5xl lg:text-8xl text-text font-roboto z-50 mb-7'>
+          {`I'm `}
+          <span className='decoration-8 underline decoration-sky-500'>
+            Dario Ontiveros
+          </span>
+        </h1>
         <h5 className='mix-blend-difference w-1/2 text-4xl lg:text-5xl font-roboto z-50 mb-7 blinking-cursor'>
           {typed}
         </h5>
@@ -19,8 +21,6 @@ const Hero = () => {
           proactive approach.
         </p>
       </div>
-      <HeroBackground />
-      <HeroBackground2 />
     </main>
   );
 };
