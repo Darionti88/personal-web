@@ -1,10 +1,13 @@
 import React from "react";
 import { Transition } from "@headlessui/react";
 import navbarButtons from "../../assets/navbarbutton.json";
-
 import { Link } from "react-scroll";
 
-const MobileTransition = ({ isOpen }: boolean) => {
+interface Props {
+  isOpen: boolean;
+}
+
+const MobileTransition = ({ isOpen }: Props) => {
   return (
     <Transition
       show={isOpen}

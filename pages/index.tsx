@@ -1,15 +1,18 @@
-import type { NextPage } from "next";
+import { GetStaticProps } from "next";
+
 import Head from "next/head";
 import AboutMe from "../components/aboutMe/AboutMe";
 import CardSection from "../components/pricingSection/CardSection";
 import Hero from "../components/heroSection/Hero";
 import Navbar from "../components/navbar/Navbar";
 import BackgroundParticles from "../components/particles/BackgroundParticles";
-import ProjectsSection from "../components/projectsSection /ProjectsSection";
+import { ProjectsSection } from "../components/projectsSection /ProjectsSection";
 import Testimonials from "../components/testimonialSection/Testimonials";
 import Footer from "../components/footer/Footer";
+import { NotionResponse } from "../interface/notionResponse";
+import { Client } from "@notionhq/client";
 
-const Home: NextPage = () => {
+const Home = ({ results }: NotionResponse) => {
   return (
     <div className='flex dark:text-text bg-background flex-col items-center justify-center overflow-x-hidden relative'>
       <Navbar />
@@ -19,7 +22,7 @@ const Home: NextPage = () => {
       <BackgroundParticles />
       <Hero />
       <AboutMe />
-      <ProjectsSection />
+      <ProjectsSection results={results} />
       <Testimonials />
       <CardSection />
       <Footer />
@@ -28,3 +31,15 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+export const getStaticProps: GetStaticProps = async () => {
+  const notion = new Client({ auth: process.env.NOTION_API_KEY });
+  const response = await notion.databases.query({
+    database_id: "eca3722b9bc14e58a0fe4704169d3d5f",
+  });
+  return {
+    props: {
+      results: response.results,
+    },
+  };
+};
