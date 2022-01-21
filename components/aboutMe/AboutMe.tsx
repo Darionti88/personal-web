@@ -1,7 +1,9 @@
 const AboutMe = () => {
   return (
     <section className='flex flex-col bg-background400 w-screen justify-center items-center'>
-      <div id='about' className='h-full sm:px-20 py-10 mb-10 w-4/5 container'>
+      <div
+        id='about'
+        className='h-full sm:px-20 py-10 mb-10 w-4/5 sm:w-full container'>
         <h1
           className='sm:text-7xl text-5xl self-start font-nunito py-5 underline decoration-8 
       decoration-primary-orange'>

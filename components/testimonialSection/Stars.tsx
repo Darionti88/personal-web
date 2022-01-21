@@ -5,7 +5,7 @@ const Stars = () => {
     <>
       <svg
         xmlns='http://www.w3.org/2000/svg'
-        className='fill-current h-6 mx-1 text-yellow-400 w-6'
+        className='fill-current h-4 mx-1 text-yellow-400 w-4'
         viewBox='0 0 31 30'
         fill='none'>
         <path
@@ -16,7 +16,7 @@ const Stars = () => {
       </svg>
       <svg
         xmlns='http://www.w3.org/2000/svg'
-        className='fill-current h-6 mx-1 text-yellow-400 w-6'
+        className='fill-current h-4 mx-1 text-yellow-400 w-4'
         viewBox='0 0 31 30'
         fill='none'>
         <path
@@ -27,7 +27,7 @@ const Stars = () => {
       </svg>
       <svg
         xmlns='http://www.w3.org/2000/svg'
-        className='fill-current h-6 mx-1 text-yellow-400 w-6'
+        className='fill-current h-4 mx-1 text-yellow-400 w-4'
         viewBox='0 0 31 30'
         fill='none'>
         <path
@@ -38,7 +38,7 @@ const Stars = () => {
       </svg>
       <svg
         xmlns='http://www.w3.org/2000/svg'
-        className='fill-current h-6 mx-1 text-yellow-400 w-6'
+        className='fill-current h-4 mx-1 text-yellow-400 w-4'
         viewBox='0 0 31 30'
         fill='none'>
         <path
@@ -49,7 +49,7 @@ const Stars = () => {
       </svg>
       <svg
         xmlns='http://www.w3.org/2000/svg'
-        className='fill-current h-6 mx-1 text-gray-300 w-6'
+        className='fill-current h-4 mx-1 text-yellow-400 w-4'
         viewBox='0 0 31 30'
         fill='none'>
         <path
