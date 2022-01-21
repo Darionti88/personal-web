@@ -1,10 +1,11 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import AboutMe from "../components/aboutMe/AboutMe";
-import CardSection from "../components/cardSection/CardSection";
+import CardSection from "../components/pricingSection/CardSection";
 import Hero from "../components/heroSection/Hero";
 import Navbar from "../components/navbar/Navbar";
 import BackgroundParticles from "../components/particles/BackgroundParticles";
+import ProjectsSection from "../components/projectsSection /ProjectsSection";
 import Testimonials from "../components/testimonialSection/Testimonials";
 
 const Home: NextPage = () => {
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
       <BackgroundParticles />
       <Hero />
       <AboutMe />
+      <ProjectsSection />
       <Testimonials />
       <CardSection />
     </div>
