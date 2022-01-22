@@ -9,24 +9,23 @@
       "Get to know me and my skills",
       "Totally Free!"
     ]},
-    
-    {"id":"002",
-      "title":"Monthly",
-      "price":"Negotiable",
-      "popular": true,
-        "list":[
-          "You will have a great chat",
-          "Get to know me and my skills",
-          "Totally Free!"
-        ]},
     {"id":"003",
       "title":"Yearly",
       "price":"Priceless",
-      "popular": false,
-
+      "popular": true,
         "list":[
-          "You will have a great chat",
-          "Get to know me and my skills",
-          "Totally Free!"
+          "Enhanced Team Spirit",
+          "Less Bug on Code",
+          "0/10 Regrets Hiring Me"
+        ]},
+    {"id":"002",
+      "title":"Monthly",
+      "price":"Fair",
+      "popular": false,
+        "list":[
+          "Proactive from the Start",
+          "Fast (and Good) Learning Process",
+          "Adapts Quickly"
         ]}
+    
   ]

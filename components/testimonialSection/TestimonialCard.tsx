@@ -37,13 +37,13 @@ const TestimonialCard = ({
         <div className='text-3xl text-indigo-500 text-left leading-tight h-3'>
           “
         </div>
-        <p className='antialiased text-black text-center px-2 sm:px-5 text-md line-clamp-3'>
+        <p className='antialiased text-black text-center px-2 text-md line-clamp-3'>
           {testimonial}
         </p>
         <div className='text-3xl text-indigo-500 text-right leading-tight -mt-4'>
           ”
         </div>
-        <div className='flex flex-row'>
+        <div className='flex flex-row absolute bottom-[4%] items-center justify-center w-full'>
           <Stars />
         </div>
       </div>

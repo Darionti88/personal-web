@@ -12,7 +12,6 @@ const MobileNavbar = () => {
             activeClass={button.activeClass}
             key={button.id}
             smooth={true}
-            offset={-60}
             className='cursor-pointer hover:text-primary-salmon rounded-md text-text font-semibold px-3 py-2 text-xl'>
             {button.name}
           </Link>
