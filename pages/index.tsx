@@ -35,9 +35,10 @@ const Home = ({ results }: NotionResponse) => {
 export default Home;
 
 export const getStaticProps: GetStaticProps = async () => {
+  const database_id: any = process.env.NOTION_PROJECTS_ID;
   const notion = new Client({ auth: process.env.NOTION_API_KEY });
   const response = await notion.databases.query({
-    database_id: process.env.NOTION_PROJECTS_ID,
+    database_id,
   });
   return {
     props: {

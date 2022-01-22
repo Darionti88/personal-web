@@ -62,6 +62,7 @@ const ProjectBox = ({ name, description, url, github, image }: Project) => {
             <ul>
               <li className='text-text text-xl'>
                 <a
+                  /* @ts-ignore */
                   href={github}
                   target='_blank'
                   rel='noreferrer'
@@ -71,6 +72,7 @@ const ProjectBox = ({ name, description, url, github, image }: Project) => {
               </li>
               <li>
                 <a
+                  /* @ts-ignore */
                   href={url}
                   target='_blank'
                   rel='noreferrer'
