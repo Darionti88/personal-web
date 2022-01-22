@@ -7,7 +7,7 @@ const Burguer = ({ isOpen, setIsOpen }: NavState) => {
     <div className='mr-10 flex md:hidden'>
       <button
         type='button'
-        className=' bg-background400 inline-flex items-center justify-center p-2 w-10 h-10 rounded-md text-text hover:bg-blue-600 
+        className=' bg-background400 inline-flex items-center justify-center p-2 w-10 h-10 rounded-md text-text hover:bg-primary-orange 
         focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-800 focus:ring-white'
         aria-controls='mobile-menu'
         aria-expanded='false'

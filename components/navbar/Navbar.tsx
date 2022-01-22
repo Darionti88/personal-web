@@ -8,8 +8,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
-    <nav className=' bg-black w-screen flex flex-col  items-center justify-center'>
-      <div className='z-50 flex fixed top-0 py-3  flex-col container items-center justify-center'>
+    <nav className='flex z-50 items-center justify-center'>
+      <div className='z-50 flex fixed top-0 py-3 sm:px-16 w-screen bg-background400 flex-col items-center justify-center'>
         <div className='flex items-center w-5/6 justify-between sm:w-full'>
           <div className='flex items-center justify-center space-x-2 underline decoration-primary-orange'>
             <Link to='home' smooth={true}>
@@ -19,7 +19,7 @@ const Navbar = () => {
             </Link>
             <svg
               xmlns='http://www.w3.org/2000/svg'
-              className='h-9 w-9'
+              className='h-9 w-9 text-text'
               fill='none'
               viewBox='0 0 24 24'
               stroke='currentColor'>

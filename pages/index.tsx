@@ -14,19 +14,21 @@ import { Client } from "@notionhq/client";
 
 const Home = ({ results }: NotionResponse) => {
   return (
-    <div className='flex dark:text-text bg-background flex-col items-center justify-center overflow-x-hidden relative'>
-      <Navbar />
+    <>
       <Head>
         <title>Onti Web Cv</title>
       </Head>
-      <BackgroundParticles />
-      <Hero />
-      <AboutMe />
-      <ProjectsSection results={results} />
-      <Testimonials />
-      <CardSection />
-      <Footer />
-    </div>
+      <Navbar />
+      <div className='flex text-text bg-background flex-col items-center justify-center overflow-x-hidden relative'>
+        <BackgroundParticles />
+        <Hero />
+        <AboutMe />
+        <ProjectsSection results={results} />
+        <Testimonials />
+        <CardSection />
+        <Footer />
+      </div>
+    </>
   );
 };
 

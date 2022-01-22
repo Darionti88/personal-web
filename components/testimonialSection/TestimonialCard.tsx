@@ -12,7 +12,7 @@ const TestimonialCard = ({
   testimonial,
 }: Testimonial) => {
   return (
-    <div className='relative sm:mb-12 sm:w-full w-4-5 h-72 sm:h-4/5 z-20'>
+    <div className='relative sm:mb-12 sm:w-full w-4-5 h-72 sm:h-4/5 z-30'>
       <div
         className='absolute inset-0 shadow-lg transform bg-gradient-to-r 
       from-indigo-400 to-indigo-600 -rotate-6 rounded-3xl'></div>

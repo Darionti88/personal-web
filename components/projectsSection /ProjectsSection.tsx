@@ -11,7 +11,7 @@ export const ProjectsSection = ({ results }: NotionResponse) => {
           Some of my projects...
         </h1>
         <div className='grid w-full grid-cols-1 md:grid-cols-2 gap-y-12'>
-          {results.map((project) => (
+          {results.map((project, index) => (
             <ProjectBox
               key={project.properties.name.title[0].plain_text}
               name={project.properties.name.title[0].plain_text}
