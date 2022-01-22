@@ -5,15 +5,17 @@ import TestimonialsText from "../../assets/testimonials.json";
 const Testimonials = () => {
   return (
     <section
-      className='h-full px-6 pb-10 mt-12 bg-background400 sm:px-20 mb-4 flex sm:space-y-20 flex-col lg:justify-center lg:items-center'
-      id='testimonials'>
-      <h1 className='text-7xl self-start font-nunito py-10 underline decoration-8 decoration-primary-orange'>
-        What People are Saying...
-      </h1>
-      <div className='grid xl:grid-cols-4 md:grid-cols-2 gap-12'>
-        {TestimonialsText.map((testimonies) => (
-          <TestimonialCard key={testimonies.id} {...testimonies} />
-        ))}
+      id='testimonials'
+      className='flex flex-col bg-background400 w-screen justify-center items-center'>
+      <div className='h-full py-10 mb-10 w-5/6 flex flex-col space-y-12 container'>
+        <h1 className='sm:text-7xl text-5xl self-start mb-6 font-nunito py-5 underline decoration-8 decoration-primary-salmon'>
+          What People are Saying...
+        </h1>
+        <div className='grid xl:grid-cols-4 md:grid-cols-2 gap-y-20 sm:gap-12'>
+          {TestimonialsText.map((testimonies) => (
+            <TestimonialCard key={testimonies.id} {...testimonies} />
+          ))}
+        </div>
       </div>
     </section>
   );

@@ -5,20 +5,21 @@ const job = "React & React Native Developer";
 const Hero = () => {
   const typed = useTyped(job);
   return (
-    <main className='relative h-screen w-full'>
-      <div className=' w-full h-full flex flex-col items-center justify-center align-center'>
-        <h1 className=' mix-blend-difference text-5xl lg:text-8xl text-text font-roboto z-50 mb-7'>
+    <main id='home' className='relative h-screen w-screen container '>
+      <div className='flex flex-col h-full items-center space-y-12 justify-center'>
+        <h1 className=' text-5xl lg:text-7xl text-text sm:w-2/3 w-5/6 font-roboto z-20 mb-7'>
           {`I'm `}
           <span className='decoration-8 underline decoration-sky-500'>
             Dario Ontiveros
           </span>
         </h1>
-        <h5 className='mix-blend-difference w-1/2 text-4xl lg:text-5xl font-roboto z-50 mb-7 blinking-cursor'>
+        <h5 className='text-4xl text-shadow sm:w-2/3 w-5/6 lg:text-4xl font-roboto z-20 mb-7 blinking-cursor'>
           {typed}
         </h5>
-        <p className='lg:text-4xl text-2xl font-roboto w-1/2 z-50 mt-7 px-100'>
-          I specialize in Team Work and adding value to any project with a
-          proactive approach.
+        <p className='lg:text-2xl text-1xl font-roboto sm:w-2/3 w-5/6 z-20 mt-7'>
+          Professional{" "}
+          <span className='text-shadow-sky text-4xl'>Team Worker</span>. Ready
+          to add value to any project from Day 1.
         </p>
       </div>
     </main>

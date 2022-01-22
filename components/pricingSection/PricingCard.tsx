@@ -5,12 +5,15 @@ import { Card } from "../../interface/CardInterface";
 const PricingCard = ({ title, price, list, id, popular }: Card) => {
   return (
     <div
-      className={`px-6 py-6 z-50 bg-gray-100 dark:bg-background400 border-indigo-600 
-      rounded-md shadow-xl cursor-pointer flex flex-col items-center relative ${
-        popular ? "border-2" : "border border-opacity-10"
+      className={`sm:px-6 py-6 bg-background400  border-indigo-600 
+      rounded-md z-20 shadow-xl flex flex-col items-center relative ${
+        popular ? "border-2" : "border-[1px] border-opacity-8"
       }`}>
       {popular && (
-        <span className='bg-indigo-600 text-white px-6 py-1 rounded-full uppercase text-sm font-semibold whitespace-nowrap absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+        <span
+          className='bg-indigo-600 text-white px-6 py-1 rounded-full 
+        uppercase text-sm font-semibold whitespace-nowrap absolute top-0 left-1/2 
+        transform -translate-x-1/2 -translate-y-1/2'>
           Most Popular
         </span>
       )}
@@ -29,7 +32,7 @@ const PricingCard = ({ title, price, list, id, popular }: Card) => {
         <div className='px-10 py-4 whitespace-nowrap'>
           <p className='text-gray-500 italic'>Features:</p>
         </div>
-        <div className='py-4'>
+        <div className='py-4 px-4 sm:px-1'>
           <ul className='space-y-3'>
             {list === list &&
               list.map((feat, index) => (
@@ -40,7 +43,7 @@ const PricingCard = ({ title, price, list, id, popular }: Card) => {
               ))}
           </ul>
           <button
-            className={`mt-12 w-full py-4 px-8 rounded-lg text-lg whitespace-nowrap 
+            className={`mt-12 w-full py-4 px-8 rounded-lg text-xl whitespace-nowrap 
           focus:outline-none focus:ring-4 focus:ring-indigo-600 focus:ring-opacity-50 
           transition-all ${
             popular
