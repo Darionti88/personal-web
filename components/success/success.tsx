@@ -16,14 +16,14 @@ const Thanks = () => {
             </span>
           </h1>
         </div>
-        <div className='h-1/2 flex flex-col items-center pt-9 '>
-          <h5 className='text-4xl text-shadow-sky w-5/6 font-roboto z-20 mb-7 '>
+        <div className='h-1/2 flex flex-col justify-center items-center pt-9 '>
+          <h5 className='text-4xl text-shadow-sky text-center w-5/6 font-roboto z-20 mb-7 '>
             You Succesfully Scheduled an Interview!
           </h5>
           <Link href='/'>
-            <a className='md:w-1/5 w-2/3'>
+            <a className='md:w-1/5 w-2/3 self-center'>
               <button
-                className={`mt-12  py-4 px-8 rounded-lg text-xl whitespace-nowrap 
+                className={`mt-12 w-full py-4 px-8 rounded-lg text-xl whitespace-nowrap 
           focus:outline-none focus:ring-4 focus:ring-indigo-600 focus:ring-opacity-50 
           transition-all bg-indigo-600 hover:bg-indigo-700 text-white hover:scale-105 transform
           `}>

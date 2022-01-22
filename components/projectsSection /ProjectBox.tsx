@@ -86,8 +86,9 @@ const ProjectBox = ({ name, description, url, github, image }: Project) => {
         <div
           onClick={() => setClicked(!clicked)}
           className='face-back face cursor-pointer w-full h-full absolute top-0 rounded-3xl overflow-hidden z-10'>
-          <div className='bg-sky-900 w-full h-full flex justify-center items-start py-4 px-5 flex-col space-y-10'>
-            <h4 className='text-2xl text-text font-nunito'>Description:</h4>
+          <div
+            className='bg-sky-900 w-full h-full flex justify-center 
+          items-start py-4 px-5 flex-col'>
             <p className='text-text font-roboto text-xl'>{description}</p>
           </div>
         </div>
