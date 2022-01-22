@@ -42,16 +42,21 @@ const PricingCard = ({ title, price, list, id, popular }: Card) => {
                 </li>
               ))}
           </ul>
-          <button
-            className={`mt-12 w-full py-4 px-8 rounded-lg text-xl whitespace-nowrap 
+          <a
+            href='https://calendly.com/darionti/interview'
+            target='_blank'
+            rel='noreferrer'>
+            <button
+              className={`mt-12 w-full py-4 px-8 rounded-lg text-xl whitespace-nowrap 
           focus:outline-none focus:ring-4 focus:ring-indigo-600 focus:ring-opacity-50 
           transition-all ${
             popular
               ? "bg-indigo-600 hover:bg-indigo-700 text-white hover:scale-105 transform"
               : "bg-white text-indigo-600 hover:bg-gray-50"
           }`}>
-            Schedule Meet
-          </button>
+              Schedule Meet
+            </button>
+          </a>
         </div>
       </div>
     </div>
