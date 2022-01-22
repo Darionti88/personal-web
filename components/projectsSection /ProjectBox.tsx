@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useState } from "react";
-import KeeperImg from "../../assets/images/keeper.png";
+import { motion } from "framer-motion";
 import { Project } from "../../interface/CardInterface";
 
 const ProjectBox = ({ name, description, url, github, image }: Project) => {
@@ -8,7 +8,7 @@ const ProjectBox = ({ name, description, url, github, image }: Project) => {
   const [hover, setHover] = useState<boolean>(false);
 
   return (
-    <div className='relative w-full sm:w-5/6 h-96 z-10'>
+    <div className='relative w-full sm:w-3/4 h-96 z-10'>
       <div
         className={`absolute inset-x-2 inset-y-3 transform bg-gradient-to-r 
         from-sky-700 to-sky-500 -right-3 inside_card -bottom-4 rounded-3xl -z-10 ${

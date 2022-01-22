@@ -14,16 +14,16 @@
     "activeClass":"projects",
     "to":"projects"
  },
- {"id":"011",
-    "name":"Pricing",
-    "activeClass":"pricing",
-    "to":"pricing"
- },
  {"id":"012",
     "name":"Testimonials",
     "activeClass":"testimonials",
     "to":"testimonials"
  },
+ {"id":"011",
+   "name":"Pricing",
+   "activeClass":"pricing",
+   "to":"pricing"
+},
  {"id":"013",
     "name":"Contact",
     "activeClass":"contact",

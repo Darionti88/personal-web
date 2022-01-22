@@ -11,4 +11,12 @@ module.exports = {
   env: {
     NOTION_TESTIMONIAL_ID: process.env.NOTION_TESTIMONIAL_ID,
   },
+  webpack: (config, options) => {
+    config.module.rules.push({
+      test: /\.(svg|pdf)$/,
+      type: "asset/resource",
+    });
+
+    return config;
+  },
 };
