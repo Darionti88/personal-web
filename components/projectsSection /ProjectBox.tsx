@@ -10,12 +10,15 @@ const ProjectBox = ({ name, description, url, github, image }: Project) => {
   return (
     <div className='relative w-full sm:w-5/6 h-96 z-10'>
       <div
-        className='absolute inset-x-2 inset-y-3 transform bg-gradient-to-r from-primary-salmon100 to-primary-salmon -right-3 -bottom-4 rounded-3xl -z-10
-        '></div>
-      <div
-        className={`w-full shadow-lg z-10 rounded-3xl inside_card relative ${
+        className={`absolute inset-x-2 inset-y-3 transform bg-gradient-to-r 
+        from-sky-700 to-sky-500 -right-3 inside_card -bottom-4 rounded-3xl -z-10 ${
           clicked && "flipped"
-        }`}>
+        }`}
+      />
+      <div
+        className={`w-full shadow-lg z-10 rounded-3xl inside_card relative 
+        ${clicked && "flipped"}
+        `}>
         <div className='w-full h-full overflow-hidden space-y-2 face'>
           <div
             onMouseOver={() => setHover(true)}
@@ -81,7 +84,7 @@ const ProjectBox = ({ name, description, url, github, image }: Project) => {
         <div
           onClick={() => setClicked(!clicked)}
           className='face-back face cursor-pointer w-full h-full absolute top-0 rounded-3xl overflow-hidden z-10'>
-          <div className='bg-background400 w-full h-full flex justify-center items-start py-4 px-5 flex-col space-y-10'>
+          <div className='bg-sky-900 w-full h-full flex justify-center items-start py-4 px-5 flex-col space-y-10'>
             <h4 className='text-2xl text-text font-nunito'>Description:</h4>
             <p className='text-text font-roboto text-xl'>{description}</p>
           </div>
