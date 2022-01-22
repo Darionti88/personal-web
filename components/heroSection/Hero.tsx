@@ -7,6 +7,7 @@ const job = "React & React Native Developer";
 
 const Hero = () => {
   const typed = useTyped(job);
+
   return (
     <main id='home' className='relative h-screen w-screen container '>
       <div className='flex flex-col h-full items-center justify-center '>
