@@ -31,7 +31,6 @@ const ProjectBox = ({ name, description, url, github, image }: Project) => {
               objectFit='fill'
               className={`rounded-xl bg-red-300 ${hover && "visible"}`}
               layout='fill'
-              priority
             />
             <div
               className={`absolute flex items-center cursor-pointer justify-center 
