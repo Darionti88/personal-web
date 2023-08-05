@@ -11,18 +11,18 @@ export const ProjectsSection = ({ results }: NotionResponse) => {
           Some of my projects...
         </h1>
         <div className='grid w-full grid-cols-1 md:grid-cols-2 gap-y-12'>
-          {results.map((project, index) => (
-            <ProjectBox
-              key={project.properties.name.title[0].plain_text}
-              name={project.properties.name.title[0].plain_text}
-              image={project.properties.image.files[0].file.url}
-              description={
-                project.properties.description.rich_text[0].plain_text
-              }
-              github={project.properties.github.url}
-              url={project.properties.url.url}
-            />
-          ))}
+          {/*{results.map((project, index) => (*/}
+          {/*  <ProjectBox*/}
+          {/*    key={project.properties.name.title[0].plain_text}*/}
+          {/*    name={project.properties.name.title[0].plain_text}*/}
+          {/*    image={project.properties.image.files[0].file.url}*/}
+          {/*    description={*/}
+          {/*      project.properties.description.rich_text[0].plain_text*/}
+          {/*    }*/}
+          {/*    github={project.properties.github.url}*/}
+          {/*    url={project.properties.url.url}*/}
+          {/*  />*/}
+          {/*))}*/}
         </div>
       </div>
     </section>
